@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+int ja;
+scanf("%d",&ja);
+while(ja--)
+{
+    int fi;
+    scanf("%d",&fi);
+    if(fi<=3)
+    {
+        printf("BRONZE\n");
+    }
+    else if(fi >3 && fi<=6)
+    {
+        printf("SILVER\n");
+    }
+    else
+    {
+        printf("GOLD\n");
+    }
+}
+}
+
