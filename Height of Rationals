@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    // Read two integers from input
+    scanf("%d %d", &a, &b);
+    
+    int maxi;
+    // Use if-else to find the maximum of a and b
+    if (a > b) {
+        maxi = a;
+    } else {
+        maxi = b;
+    }
+    
